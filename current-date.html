@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title> print current day and time </title> 
+</head> 
+<body> 
+    <script type="text/javascript"> 
+        var todayTime = new Date();
+        var month = todayTime.getMonth() + 1;
+        var day = todayTime.getDate();
+        var year = todayTime.getFullYear();
+        var myDate = month + "/" + day + "/" + year;
+        var myDate2 = month + "-" + day + "-" + year;
+        document.write(myDate2 +", "+ myDate); 
+    </script> 
+</body> 
+</html> 
